@@ -1,0 +1,94 @@
+.rowOfConten {
+	display: flex;
+	/* flex-grow: 2; */
+	height: 55px;
+	margin-top: 5px;
+	/* background: green; */
+	background: rgba(174, 209, 209, .5);
+
+}
+
+.content {
+	width: 330px;
+	/* background: #45F97C; */
+	/* height: auto; */
+	/* box-sizing: border-box; */
+
+
+}
+	.content h3 {
+		font-size: 1.5em;
+	}
+
+	.content p {
+		font-size: 1em;
+	}
+
+.options {
+	display: flex;
+
+
+	/* margin-top: 20px; */
+}
+
+.options input {
+    border: none;
+    /* padding: 0px 5px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    /* margin: 10px 2px; */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.listo {
+	background-color: #4CAF50; 
+	padding: 0px 5px;
+	margin: 10px 2px;
+    color: white; 
+    border: 2px solid #4CAF50;
+}
+
+	.listo:hover {
+		background-color: white; 
+    	color: black; 
+	}
+
+.eliminar {
+	background-color: #f44336; 
+	padding: 0px 5px;
+	margin: 10px 2px;
+    color: white; 
+    border: 2px solid #f44336;	
+}
+
+.eliminar1 {
+	background-color: #f44336; 
+    color: white;
+     padding: 10px 50px;
+     margin: 0px 0px;
+    border: 2px solid #f44336;	
+}
+
+	.eliminar1:hover {
+		background-color: white; 
+    	color: black;
+	}
+	.eliminar:hover {
+		background-color: white; 
+    	color: black;
+	}
+
+.editar {
+	background-color: #008CBA; 
+	padding: 0px 5px;
+	margin: 10px 2px;
+    color: white; 
+    border: 2px solid #008CBA;	
+}
+	.editar:hover {
+		background-color: white; 
+    	color: black;
+	}
