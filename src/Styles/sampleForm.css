@@ -1,6 +1,5 @@
 
 .sampleForm {
-	/* background: rgba(194, 103, 39, .6); */
 	margin-left: 20px;
 	height: 450px;
 
@@ -14,14 +13,11 @@
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(auto, 55px);
-
-	/* grid-gap: 10px; */
 }
 
 .sampleCulminationRow {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: auto;
-	/* grid-gap: 10px; */
 	border-top: 1px solid;
 }

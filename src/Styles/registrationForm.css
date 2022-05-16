@@ -1,9 +1,7 @@
 .registrationForm {
-	/* background: #52E51E; */
 
 	height: 450px;
-	background: rgba(194, 103, 39, .6);
-
+	background: rgba(103, 158, 205, .6);
 
 	display: grid;
 	grid-template-columns: 1fr;
@@ -11,7 +9,9 @@
 }
 
 .registrationForm h1 {
-	padding: 0px 0px 20px 10px;
+	padding: 20px 0px 0px 30px;
+	font-family: verdana;
+	font-size: 1.5em;
 }
 
 .boxInput {
@@ -23,10 +23,9 @@
 		height: 40px;
 		outline: none;
 		font-size: 15px;
+		font-family: verdana;
 		cursor:text;
 		border-radius: 5px;
-		/* margin-top: 20px; */
-		/* margin-left: 40px; */
 	}
 	
 .boxTextarea {
@@ -40,8 +39,7 @@
 		font-size: 16px;
 		cursor:text;
 		border-radius: 5px;
-		/* margin-top: 20px; */
-		/* margin-left: 40px; */
+		font-family: verdana;
 	}
 
 
@@ -53,7 +51,7 @@
 }
 
 .boxOfButton .agregar {
-	background-color: #008CBA;
+	background-color: #5F6A7A;
     border: none;
     color: white;
     padding: 15px 20px;
@@ -62,6 +60,7 @@
     display: inline-block;
     font-size: 15px;
     border-radius: 2px;
+    font-family: verdana;
 }
 	.boxOfButton .agregar:hover {
 		color: black;
@@ -69,7 +68,7 @@
 	}
 
 .boxOfButton .canselar {
-	background-color: #e7e7e7;
+	background-color: #D9E2DC;
     border: none;
     color: black;
     padding: 15px 20px;
@@ -79,13 +78,9 @@
     font-size: 15px;
     border-radius: 2px;
     margin-left: 40px;
+    font-family: verdana;
 }
 	.boxOfButton .canselar:hover {
 		border: 1px solid;
 		cursor: pointer;
 	}
-
-
-.desabilitar {
-	display: none;
-}

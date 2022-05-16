@@ -1,46 +1,37 @@
 .rowOfConten {
 	display: flex;
-	/* flex-grow: 2; */
 	height: 55px;
 	margin-top: 5px;
-	/* background: green; */
 	background: rgba(174, 209, 209, .5);
 
 }
 
 .content {
 	width: 330px;
-	/* background: #45F97C; */
-	/* height: auto; */
-	/* box-sizing: border-box; */
-
-
 }
 	.content h3 {
-		font-size: 1.5em;
+		font-size: 1.2em;
+		font-family: verdana;
 	}
 
 	.content p {
 		font-size: 1em;
+		font-family: verdana;
 	}
 
 .options {
 	display: flex;
-
-
-	/* margin-top: 20px; */
 }
 
 .options input {
     border: none;
-    /* padding: 0px 5px; */
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 13px;
-    /* margin: 10px 2px; */
     transition-duration: 0.4s;
     cursor: pointer;
+    font-family: verdana;
 }
 
 .listo {
